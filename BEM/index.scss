@@ -1,0 +1,30 @@
+.component {
+    display: block;
+    max-width: 20rem;
+    min-height: 20rem;
+    margin: 5rem auto;
+    background: rebeccapurple;
+    position: relative;
+    border: 1px dashed rebeccapurple;
+    
+    &__child-element {
+        display: block;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        background: white;
+    }
+    
+    &--reversed {
+        background: white;
+        border-color: lightgray;
+        
+        #{ $self }__child-element {
+            background: rebeccapurple;
+        }
+    }
+}

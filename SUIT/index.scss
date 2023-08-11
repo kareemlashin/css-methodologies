@@ -1,0 +1,60 @@
+// Style tools for UI components
+/* 
+Utilities
+
+u-[sm-|md-|lg-]<utilityName>
+
+Components
+
+[<namespace>-]<ComponentName>[-descendentName][--modifierName]
+
+States
+
+ComponentName.is-<stateOfComponent>
+
+Variables
+
+--ComponentName[-descendant|--modifier][-onState]-(cssProperty|variableName)
+
+Theme Variables
+
+--variableName
+
+
+*/
+
+.Button {
+    background-color: hsl(270, 100%, 50%);
+    border: 1px solid hsl(0, 0, 60%);
+    border-radius: 5px;
+    color: hsl(120, 100%, 100%);
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0.1rem 0.25rem; 
+    
+    &--secondary {
+      background-color: hsl(120, 100%, 100%);
+      color: hsl(120, 100%, 0%);
+    }
+  }
+  
+  .ButtonLarge {
+    background-color: hsl(270, 90%, 50%);
+    border: 2px solid hsl(0, 0, 70%);
+    color: hsl(120, 100%, 100%);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    padding: 0.25rem 0.5rem;
+  
+    &--secondary {
+      background-color: hsl(0, 0, 90%);
+      color: initial;
+    }
+  }
+  
+  // Layout
+  
+  button {
+    margin: 1rem;
+  }

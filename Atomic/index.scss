@@ -1,0 +1,50 @@
+/* Shorthand Atomic CSS Examples */
+
+.bg-blue { background-color: #357edd; } 
+.f1 { font-size: 3rem; }
+.ma0 { margin: 0; }
+
+/* Longhand Atomic CSS Examples */
+
+.bgr-blue { background-color: #357edd; }
+.background-blue  { background-color: #357edd; }
+.backgroundcolor-blue  { background-color: #357edd; }
+.text-h1 { font-size: 3rem; }
+.text-3rem { font-size: 3rem; }
+.text-huge { font-size: 3rem; }
+.fontsize-1 { font-size: 3rem; }
+.marg-0 { margin: 0; }
+.margin-0 { margin: 0; }
+
+.grid-12   /* Full width by default */
+.m-grid-6  /* 2 column at medium screen sizes */
+.l-grid-4  /* 3 column for large screen sizes */{
+}
+
+.button {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Atomic CSS */
+  .display-flex {
+    display: flex;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+  .b-none {
+    border: none;
+  }
+  
+  .fs-14 {
+    font-size: 14px;
+  }
+  
+  .bgc-purple {
+    background-color: purple;
+  }
+  
+  .br-3 {
+    border-radius: 3px;
+  }
